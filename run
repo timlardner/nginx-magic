@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run --rm -it -p 80:80 -v /Users/tlardner/dev/nginx/nginx.conf:/etc/nginx/nginx.conf:ro -v /Users/tlardner/dev/nginx/:/usr/share/nginx/html:ro nginx
+
